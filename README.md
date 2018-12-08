@@ -23,7 +23,7 @@ Finally, based on the above processes, we will evaluate the performance of each 
 Compare with 4 methodologies, beyond all doubt, the CNN model is the best classifier in the Iceberg classification problem, even that the CNN performance in initial model (0.9172) is good than all the final supervised learning model (around 0.81~0.85). The final test show that the F-score of CNN is 0.9304, this is higher than what I expected.
 
 | Methodology | Benchmark Model | Data Preprocess | Data Extraction | Data Augmentation/Optimized Model |
-| :--: |
+| :--: | :--: | :--: | :--: | :--: |
 | SVM | 0.7331 | 0.6514| 0.5805 | **0.8424** |
 | AdaBooster | 0.7331 | 0.7711| 0.7860 | **0.8105** |
 | XGBooster | 0.7331 | 0.7933 | 0.8248 | **0.8501** |
