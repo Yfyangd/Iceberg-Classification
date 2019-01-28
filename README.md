@@ -1,8 +1,6 @@
 # Iceberg-Classification
 It is my final project of Udacity (Capstone). The object of my research is to classify icebergs and ships from the satellite image. During the winter and spring, drifting icebergs in the North Atlantic ocean present threats to navigation and activities in areas such as offshore of the east coast of Canada. It poses a risk to people's lives and oil and gas equipment, as well as present challenges to shipping and other activities. The Current method for monitoring iceberg conditions is aerial reconnaissance, supplemented by platform and vessel-based monitoring. However, in remote areas with particularly harsh weather, these methods are not feasible, and the only viable monitoring option is via satellite. The data in this paper was detected by synthetic aperture radar (SAR) from Sentinel-1,which is a space mission funded by the European Union and carried out by the ESA within the Copernicus Programme. After detection, additional processing is needed to distinguish between ships and icebergs. The discrimination between the two classes is carried out through feature extraction and target classification steps.
 
-
-
 This study proposes the application of Convolutional Neural Networks (CNN) for ship-iceberg discrimination in high resolution Sentinel-1 StripMap images. The data was collected from Kaggle - iceberg classifier challenge. The CNN model is compared with a Random Decision Forests/Support Vector Machine (SVM)/Adaptive Boosting/eXtreme Gradient Boosting, and the result indicate a superior classification performance of the proposed method.
 
 ## Data Description
